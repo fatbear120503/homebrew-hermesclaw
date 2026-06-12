@@ -4,7 +4,7 @@ class Hermesclaw < Formula
   version "0.2.0"
 
   url "https://github.com/fatbear120503/hermesclaw/releases/download/v0.2.0/HermesClaw-0.2.0.tar.gz"
-  sha256 "b7bb7fc8cf4e53afdd849dd3684eeaefb1ece0c2c1584d3f18e8d62577bc36f2"
+  sha256 "1538eb26f2d3fee0202a77ed7b511839fea9f09e7c935bb67e7bc19fc3fded37"
 
   depends_on "python@3.13" => :recommended
   depends_on "node" => :recommended
