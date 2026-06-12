@@ -5,7 +5,7 @@ class Hermesclaw < Formula
 
   # 从 GitHub Release 下载 tar.gz
   url "https://github.com/fatbear120503/hermesclaw/releases/download/v0.1.0/HermesClaw-0.1.0.tar.gz"
-  sha256 "sha256 "0917a9073eb1a8263007aa1cec8cd9f1534c586c03b503e894806cc84560a67b""
+  sha256 "sha256 "b7bb7fc8cf4e53afdd849dd3684eeaefb1ece0c2c1584d3f18e8d62577bc36f2""
 
   # 推荐依赖（非强制，会自动检测）
   depends_on "python@3.13" => :recommended
