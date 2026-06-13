@@ -1,5 +1,5 @@
 # HermesClaw Homebrew Formula
-# 
+#
 # Usage:
 #   brew tap fatbear120503/hermesclaw
 #   brew install hermesclaw
@@ -7,10 +7,10 @@
 class Hermesclaw < Formula
   desc "多智能体 AI 调度系统 - 动态配置 + 流式快显"
   homepage "https://github.com/fatbear120503/hermesclaw"
-  version "1.0.0"
+  version "1.0.1"
 
-  url "https://github.com/fatbear120503/hermesclaw/releases/download/v1.0.0/HermesClaw-1.0.0.tar.gz"
-  sha256 "939dfccf36214c884686d1190b3dd9ce8762dda390fc5818cc6df38cd663a807"
+  url "https://github.com/fatbear120503/hermesclaw/releases/download/v1.0.1/HermesClaw-1.0.1.tar.gz"
+  sha256 "6a8c8140d0ea3b3159138d82d0f1e8cb16c073a804e18aa82e0fe8e372eb2710"
 
   depends_on "python@3.13"
 
@@ -26,7 +26,7 @@ class Hermesclaw < Formula
       case "${1:-help}" in
         help|--help|-h)
           cat <<'HELP'
-🐿️ HermesClaw v1.0 - 多智能体 AI 调度系统
+🐿️ HermesClaw v1.0.1 - 多智能体 AI 调度系统
 
 命令:
   help              显示帮助
@@ -48,8 +48,8 @@ class Hermesclaw < Formula
 微信触发示例:
   oc:问题          → 🐿️ 小松鼠 (OpenClaw)
   hm:问题          → ⚡ Hermes
-  cherry:问题      → 🍒 Agnes AI (自定义)
-  wb:问题          → 🤖 WorkBuddy (自定义)
+  cherry:问题      → 🍒 自定义智能体
+  wb:问题          → 🤖 自定义智能体
   all:问题         → 调用所有已配置的智能体（流式快显）
   all:聚合分析问题 → 深度对比分析
 
@@ -99,7 +99,7 @@ HELP
 
   def caveats
     <<~EOS
-      🐿️ HermesClaw v1.0.0 多智能体调度系统已安装！
+      🐿️ HermesClaw v1.0.1 多智能体调度系统已安装！
 
       快速开始:
         hermesclaw install    → 配置你的 AI 智能体
