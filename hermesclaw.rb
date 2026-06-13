@@ -3,7 +3,7 @@ class Hermesclaw < Formula
   homepage "https://github.com/fatbear120503/hermesclaw"
   version "1.0.1"
   url "https://github.com/fatbear120503/hermesclaw/releases/download/v1.0.1/HermesClaw-1.0.1.tar.gz"
-  sha256 "6a8c8140d0ea3b3159138d82d0f1e8cb16c073a804e18aa82e0fe8e372eb2710"
+  sha256 "f423ca6122b5613b309c5a497ea4cde40c3ec1ac9afa4422446fb2e9c0e0dfab"
   license "MIT"
 
   depends_on "python@3.13"
